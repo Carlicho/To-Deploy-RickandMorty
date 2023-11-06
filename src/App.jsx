@@ -23,18 +23,15 @@ function App() {
 
 // 1 Enviamos onSearch
 // 2 
-   const onSearch =(id) => {
-
-
-      axios(`http://localhost:3001/character/${id}`) //VAMOOOOO, EL ERROR QUE TENIA ERA QUE PUSE CHARACTES EN VEZ DE CHARACTER, LA CANTIDAD DE TIEMPO Q PERDI BUSCANDO PORQUE ME TIRABA NOT FOUND
-      .then(({ data }) => {
-         if (data.name) {
-            setCharacters((oldChars) => [...oldChars, data]);
-         } else {
-            window.alert('¡No hay personajes con este ID!');
-         }
-      });
-   }
+function onSearch(id) {
+   axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
+      if (data.name) {
+         setCharacters((oldChars) => [...oldChars, data]);
+      } else {
+         window.alert('¡No hay personajes con este ID!');
+      }
+   });
+}
  
 
  
