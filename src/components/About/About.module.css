@@ -1,0 +1,72 @@
+.about {
+    margin-top: 0;
+    height: 100vh;
+    margin: 5px ;
+    padding: 4px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.about h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8;
+    line-height: 1;
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+.about p {
+
+    color: #B8B8B8;
+    font-size: 21px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-align: center;
+    
+}
+
+
+
+
+.about a {
+    background-color: rgba(0, 0, 0, 0.487);
+    border: solid rgb(98, 0, 255);
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 0.8;
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+
+
+/* .aboutcontainer {
+    background-color: #121417;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about{
+    
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.cardabout {
+    align-items: center;
+    justify-content: center;
+} */

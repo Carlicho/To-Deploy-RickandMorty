@@ -1,0 +1,99 @@
+.cardcontainer {
+    background-color: #181b5e00;
+    opacity: 0.8;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.cardcontainer:hover {
+    opacity: 1;
+    transition: 0.3s;
+    
+    border-radius: 55%;
+}
+
+.headercard {
+    position: relative;
+    border-radius: 15px;
+}
+
+.cardclose-btn {
+    position: absolute;
+    right: -20px;
+}
+
+.closebtn {
+    background-color: red;
+    border-radius: 7px;
+    position:absolute;
+    right:20px;
+    top: 7px;
+    
+}
+
+.cardimg {
+    border-radius: 50%;
+    -webkit-mask-image: linear-gradient(black,transparent);
+    mask-image: linear-gradient(black,transparent);
+}
+
+
+
+.infocontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cardname {
+    top: -110px;
+    left: 0px;
+    position: absolute;
+    color: rgb(0, 0, 0); 
+    text-shadow: 3px 1px  #3cff00,-2px -2px  #8cff0081,2px 2px 3px #00fb36;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 15px;
+   
+}
+
+.detailbtn{
+    font-size: 0.9rem;
+    top: -50px;
+    left: 35%;
+    position: absolute;
+    border: 2px solid rgb(0, 55, 255);
+    border-radius: 50px 5px 50px 20px;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.969);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #00fb36;
+}
+
+
+
+.detailbtn:hover {
+    box-shadow: 1px 1px 1px 5px rgba(0, 255, 13, 0.18);
+    border: 3px solid rgba(0, 255, 13, 0.481);
+    background-color: rgb(13, 11, 70);
+    font-size: 15px;
+}
+

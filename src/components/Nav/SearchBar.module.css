@@ -1,0 +1,23 @@
+.search-container {
+    margin: 10px 30px 10px 10px;
+}
+
+
+.search-input {
+    width: 350px;
+}
+
+.search-btn{
+    background-color: rgb(193, 193, 193)   ;
+}
+
+
+/* Medias Queris */
+
+@media (max-width: 700px) {
+    .search-input {
+        width: 150px;
+    }
+
+
+}

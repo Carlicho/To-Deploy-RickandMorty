@@ -1,0 +1,64 @@
+.detailcontainer{
+    color: white;
+    height: 100vh;
+    background-color: #0c0c0c;
+    background-image: url(../../assets/backgroun2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headercard {
+    position: relative;
+    border-radius: 15px;
+}
+
+.cardimg {
+    border-radius: 15px;
+}
+
+.cardname {
+    top: 210px;
+    left: 0px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.999); 
+    text-shadow: 3px 1px  #3cff00,-2px -2px  #8cff0081,2px 2px 3px #00fb36;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.card {
+    background-color: #121417;
+    width: 299px;
+    height:500px;
+    
+}
+
+.cardinfo{
+    height: 200px;
+    background-color: #121417;
+    text-align: center;
+}
+
+.detailbtn{
+    border: 2px solid rgb(0, 55, 255);
+    border-radius: 3%;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.969);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #00fb36;
+}
+
+.detailbtn:hover {
+    border: 3px solid rgb(0, 255, 13);
+    background-color: rgb(13, 11, 70);
+    font-size: 18px;
+}

@@ -1,0 +1,112 @@
+
+
+.globalheader{
+    width: 100%;
+    height: 7rem;
+    background-color: #0c0c0c;
+    background-image: url(../../assets/portalbanner.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px 10px 50px;
+    padding: 10px 0 0 0;
+    
+}
+
+.bannertitle {
+    color: rgb(28, 24, 24);  
+    font-family: 'Playfair', serif;
+    margin-right: 30px ;
+    letter-spacing: 3px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#ffffff67);
+    line-height: 0,70em;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: rgb(131, 131, 131); 
+        box-shadow: none;
+    }
+
+    18.1%,20.1%,30%,50%,60.1%,65%,80%,1%,90%,92.1%,100%{
+        color: rgb(66, 247, 0); 
+        text-shadow: 0 0 10px rgb(53,189,14),
+        0 0 20px rgb(53,189,14),
+        0 0 40px rgb(53,189,14),
+        0 0 80px rgb(53,189,14),
+        0 0 160px rgb(53,189,14),
+          ;
+    }
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;
+
+}
+
+a:hover {
+    box-shadow:  2px 1px  #3cff005e,-1px -1px  #8cff0060,1px 1px 10px #00fb3680;;
+    padding: 2px;
+    text-shadow:  2px 1px  #3cff00,-2px -2px  #8cff0081,2px 2px 3px #00fb36; ;
+
+}
+
+.h1links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+    width: max-content;
+    width: 55rem;
+}
+
+.linkscontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+
+/* Medias Queris */
+
+@media (max-width: 700px) {
+
+    .globalheader{
+        height: 8rem;
+        background-image: none
+    }
+
+.headercontent{
+    height: 7rem;
+    margin: 0px 10px 5px 10px;
+}
+
+.bannertitle {
+    font-size: 18px;
+}
+
+.h1links{
+    display: block;
+    text-align: center;
+    margin-right: 5 0px;
+}
+    
+}
+
+
